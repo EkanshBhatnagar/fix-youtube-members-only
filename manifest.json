@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Member-Only Video Remover",
+  "version": "1.0",
+  "description": "Removes member-only videos from YouTube suggestions and homepage",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
