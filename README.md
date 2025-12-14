@@ -7,7 +7,7 @@ A Chrome extension that automatically removes member-only videos from YouTube su
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" using the toggle in the top right
 3. Click "Load unpacked"
-4. Select this directory (`fix-youtube-crap`)
+4. Select this directory (`fix-youtube-members-only`)
 5. The extension should now be active
 
 ## How It Works
